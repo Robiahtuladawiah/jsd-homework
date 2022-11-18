@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework Glossary</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid green;
+        }
+
+        body {
+            background-color: powderblue;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        p {
+            color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Homework</h1>
+
+    <input type="text" id="userInput" onkeyup="onChange()" placeholder="Search for data" title="Type in a name" />
+    <select name="idClass" id="idClass" onchange="onChange()"></select>
+    <br />
+
+    <p><b>Tags:</b></p>
+
+    <div>
+    </div>
+
+    <br />
+
+    <table id="myTable"></table>
+
+    <script src="homework.js"></script>
+</body>
+
+</html>
